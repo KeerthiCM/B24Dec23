@@ -1,7 +1,7 @@
 <suite name="Suite" parallel="none">
   <test  name="TestGC">
   <parameter name="xlfile" value="input_qa.xlsx"/>
-  <parameter name="useGrid" value="no"/>
+  <parameter name="useGrid" value="yes"/>
   <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
   <parameter name="browser" value="chrome"/>
    <packages>
@@ -10,7 +10,7 @@
   </test>
   <test  name="TestMFF">
   <parameter name="xlfile" value="input_stg1.xlsx"/>
-  <parameter name="useGrid" value="no"/>
+  <parameter name="useGrid" value="yes"/>
   <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
   <parameter name="browser" value="firefox"/>
    <packages>
